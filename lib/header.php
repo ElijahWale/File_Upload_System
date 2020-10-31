@@ -23,7 +23,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
         <a class="nav-link" href="login.php">Login</a>
         <a class="nav-link" href="register.php">Register</a>
     <?php if(isset($_SESSION['user_id'])){ ?>
